@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aytor">
+        <meta name="title" content="">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Home - Aytor</title>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/android-icon-192x192.png">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap"
+            rel="stylesheet">
+        <!-- Slick Css Link -->
+        <link rel="stylesheet" href="./assets/vendors/css/slick.min.css">
+        <!-- Bootstrap Css Link -->
+        <link rel="stylesheet" href="./assets/vendors/css/bootstrap.min.css">
+        <!-- Font Awesome Css Link -->
+        <link rel="stylesheet" href="./assets/vendors/css/all.min.css">
+        <!-- Common Css Link -->
+        <link rel="stylesheet" href="./assets/css/common.css">
+        <!-- Main Css Link -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- Responsive Css Link -->
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+    </head>
+
+    <body>
+        <!-- =========== Header Part Start =========== -->
+        <header>
+            <!-- =========== Top Bar Section Start =========== -->
+            <section id="top_bar">
+                <div class="container">
+                    <div class="d-flex spbt">
+                        <div class="top_bar_info">
+                            <p><i class="fa-regular fa-paper-plane clr"></i><span class="cptl">FREE SHIPING</span> world wide for all orders over <span class="clr">$150</span></p>
+                        </div>
+                        <div class="top_bar_info d-flex">
+                            <ul class="d-flex sec">
+                                <li><a href="./cart.html">Track Your Order</a></li>
+                                <li>
+                                    <select>
+                                    <option value="English">English</option>
+                                    <option value="BANGLA">BANGLA</option>
+                                    <option value="HINDI">HINDI</option>
+                                    </select>
+                                </li>                               
+                                <li>
+                                    <select>
+                                    <option value="USD">USD</option>
+                                    <option value="BDT">BDT</option>
+                                    <option value="EURO">EURO</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <ul class="d-flex icon">
+                                <li><a href="https//:www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =========== Top Bar Section End =========== -->
+
+            <!-- =========== Nav Bar Section Start =========== -->
+            <nav class="navbar navbar-expand-lg np">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./assets/images/logo.svg" alt="" class="img-fluid">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#primary_menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="primary_menu">
+                        <ul class="navbar-nav mx-auto manu">
+                            <li><a class="active" href="./index.html">Home</a></li>
+                            <li><a href="./shop.html">Shop</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="./shop_detail.html">shop-detail</a></li>
+                                  <li><a class="dropdown-item" href="./bolg_classic.html">block-classic</a></li>
+                                  <li><a class="dropdown-item" href="./blog_details.html">block-details</a></li>
+                                  <li><a class="dropdown-item" href="./blog_one.html">block-one</a></li>
+                                  <li><a class="dropdown-item" href="./404.html">404</a></li>
+                                </ul>
+                              </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="d-flex flex-wrap align-items-center social">
+                            <li><button id="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                            <li><a href="./checkout.html"><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href="wishlist.html"><i class="fa-solid fa-heart"></i></a></li>
+                            <li class="ofcan">
+                                <button class="btn btn-primary position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-shopping-bag"></i><span>0</span></button>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <table class="text-center">
+                    <tr class="head">
+                        <td><img src="./assets/images/cart-img-1-1.jpg" alt="" class="img-fluid"></td>
+                        <td>Jacket Hoodie Sweater <span>1*130</span></td>
+                        <td></td>
+                        <td><i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr class="head">
+                        <td><img src="./assets/images/cart-img-1-2.jpg" alt="" class="img-fluid"></td>
+                        <td>Jacket Hoodie Sweater <span>1*130</span></td>
+                        <td></td>
+                        <td><i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr class="head">
+                        <td><img src="./assets/images/cart-img-1-3.jpg" alt="" class="img-fluid"></td>
+                        <td>Jacket Hoodie Sweater <span>1*130</span></td>
+                        <td></td>
+                        <td><i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr class="head">
+                        <td><img src="./assets/images/cart-img-1-4.jpg" alt="" class="img-fluid"></td>
+                        <td>Jacket Hoodie Sweater <span>1*130</span></td>
+                        <td></td>
+                        <td><i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+            <!-- =========== Nav Bar Section End =========== -->
+        </header>
+        <!-- =========== Header Part End =========== -->
+        <!-- =========== Main Part Start =========== -->
+        <main>
+        <!-- =========== banner Part Start =========== -->
+        <section id="banner">
+            <div class="banner_slider position-relative"> 
+                <div class="banner_item_slider d-flex align-items-center" style="background-image: url(./assets/images/hero_2_bg_1\ 1.jpg);">
+                    <div class="container">
+                    <h6>Mega Sale</h6>
+                    <h1>Flat 35% Off<br>On Beauty Products</h1>
+                    <p>Objectively incubate enabled innovation through leveraged <br> mindshare. Competently.</p>
+                    <a href="shop.html">Shop Now <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="banner_item_slider blk d-flex align-items-center" style="background-image: url(./assets/images/hero_2_bg_2.webp);">
+                    <div class="container">
+                        <h6>Big Sale</h6>
+                        <h1>Product For<br>Spa Treatment</h1>
+                        <p>Objectively incubate enabled innovation through leveraged <br> mindshare. Competently.</p>
+                        <a href="shop.html">Shop Now <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="banner_item_slider d-flex align-items-center" style="background-image: url(./assets/images/hero_2_bg_3.webp);">
+                    <div class="container">
+                        <h6>Flat 35% Off</h6>
+                        <h1>Cream For<br>Shine Your Skin</h1>
+                        <p>Objectively incubate enabled innovation through leveraged <br> mindshare. Competently.</p>
+                        <a href="shop.html">Shop Now <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== sub banner section start  ===========-->
+        <section id="sub_banner">
+            <div class="container d-flex align-items-center">
+                <div class="col-lg-5 col-12 sub_banner_item">
+                    <div class="sub_banner_item_info position-relative">
+                        <img src="./assets/images/banner_2_1 1.png" alt="" class="img-fluid d-block">
+                            <div class="sub_banner_info text-center mx-auto d-flex align-items-center">
+                                <div class="align-items-center mx-auto line">
+                                    <h4>Beauty Cream</h4>
+                                    <a href="shop.html">Shop Now <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="sub_banner_item_info position-relative">
+                        <img src="./assets/images/banner_2_2 1.png" alt="" class="img-fluid d-block">
+                            <div class="sub_banner_info text-center mx-auto d-flex align-items-center">
+                                <div class="align-items-center mx-auto">
+                                    <h4>Face Cream</h4>
+                                    <a href="shop.html">Shop Now <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="sub_banner_item last col-lg-7 col-xs-12 position-relative">
+                            <img src="./assets/images/banner-2.1.jpg" alt="" class="img-fluid d-block">
+                    <div class="sub_banner_info text-center mx-auto d-flex align-items-center">
+                        <div class="align-items-center mx-auto">
+                            <h4>Natural Cream</h4>
+                            <a href="shop.html">Shop Now <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========== banner Part End =========== -->
+        <!--===== new arrival Product  start =====-->
+        <section id="product">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>New Arrivals Products</h2>
+                </div>
+                    <div class="product_slider">
+                        <div class="col-lg-3 col-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-1.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-1h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$150.65</ins> <del>$450.65</del></h5>
+                                    <h3>Lotion Shower gel</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>                               
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>-45%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-2.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-2h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$250.65</ins> <del>$450.65</del></h5>
+                                    <h3>Argan Cream Body Butter</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>sale</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-3.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-3h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$175.65</ins> <del>$450.65</del></h5>
+                                    <h3>Compact Face Powder</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-4.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-4h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$450.65</del></h5>
+                                    <h3>Manicure Gel nails, makeup</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>new</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-5.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-5h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$150.65</del></h5>
+                                    <h3>Manicure Gel nails, makeup</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>New</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-6.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-6h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$150.65</del></h5>
+                                    <h3>Manicure Gel nails, makeup</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>New</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!--=========== new arrival Product  end ===========-->
+        <!--=========== spa banner section start =========== -->
+        <section id="spa_cosmatic" style="background-image: url(./assets/images/offer_banner_2_1.jpg);">
+            <div class="container"> 
+                <div class="col-sm-12 col-md-5 info">
+                    <h2>Get Up To 35% Off <br> all Best Spa <br> Cosmetics</h2>
+                    <p>Holisticly maximize interoperable action items for effective e-business. Globally impact enterprise-wide niche markets through dynamic.</p>
+                    <a href="./shop.html">Shop Now <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--=========== spa banner section end  ===========-->
+
+        <!--=========== best seling  Product  start ===========-->
+        <section id="product">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>Best Seller Products</h2>
+                </div>
+                    <div class="d-flex flex-wrap">
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-2.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-2h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$250.65</ins> <del>$450.65</del></h5>
+                                    <h3>Argan Cream Body Butter</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>sale</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-3.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-3h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$175.65</ins> <del>$450.65</del></h5>
+                                    <h3>Argan Cream Butterr</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-4.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-4h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$450.65</del></h5>
+                                    <h3>Manicure Gel nails, makeup</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>new</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-5.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-5h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$150.65</del></h5>
+                                    <h3>Compact Face Powder</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>sale</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-5.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-5h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$150.65</del></h5>
+                                    <h3>Manicure Gel nails, makeup</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>New</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-6.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-6h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$150.65</del></h5>
+                                    <h3>Perfumes s, Orlane</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>New</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-7.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-7h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$150.65</del></h5>
+                                    <h3>Natural skin Cleanser</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 item">
+                            <div class="product_box text-center position-relative">
+                                <div class="product_img">
+                                    <img src="./assets/images/featured-2-8.jpg" alt="" class="img-fluid">
+                                    <img src="./assets/images/featured-2-8h.jpg" alt="" class="product_img_hover img-fluid">
+                                </div>
+                                <div class="product_info">
+                                    <h5><ins>$75.65</ins> <del>$150.65</del></h5>
+                                    <h3>Oil Hair conditioner</h3>
+                                    <div class="product_rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product_action_btn">
+                                    <ul>
+                                        <li  style="transition-delay: .6s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: .8s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to whislist"><i class="fa-solid fa-heart"></i></button>
+                                        </li>
+                                        <li  style="transition-delay: 1s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick view"><i class="fa-solid fa-eye"></i></button>
+                                        </li>
+                                        <li style="transition-delay: 1.2s;"><button data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="compare" ><i class="fa-solid fa-signal"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product_badge">
+                                    <p>New</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex mx-auto justify-content-center cbutton"><a href="./shop.html">See All Products </a></div>
+                    </div>
+            </div>
+        </section>
+        <!--=========== best seling Product  end ===========-->
+
+        <!--=========== deals ending timer ===========-->
+        <section id="deals">
+            <div class="container">
+                <div class="row">
+                    <div class="heading mx-auto d-flex justify-content-center">
+                        <h3>Deals Of The Days</h3>
+                    </div>
+                    <div class="col-lg-4 text-center deals_timer mx-auto d-flex justify-content-between align-items-center" id="deals_timer">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== deals ending timer ===========-->
+
+        <!--=========== discound section start  ===========-->
+        <section id="two">
+            <div class="container">
+                <div class="d-flex discound_banner_slider">
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_3.jpg);">
+                        <h6>Body Lotions</h6>
+                        <h2>Get Up To 40% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$240.35 </strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_4.jpg);">
+                        <h6>Eye Liner</h6>
+                        <h2>Get Up To 45% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$240.35 </strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_2.jpg);">
+                        <h6>Fairness Cream</h6>
+                        <h2>Get Up To 35% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$256.35</strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_3.jpg);">
+                        <h6>Body Lotions</h6>
+                        <h2>Get Up To 40% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$240.35 </strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_4.jpg);">
+                        <h6>Eye Liner</h6>
+                        <h2>Get Up To 45% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$240.35 </strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_2.jpg);">
+                        <h6>Fairness Cream</h6>
+                        <h2>Get Up To 35% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$256.35</strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_3.jpg);">
+                        <h6>Body Lotions</h6>
+                        <h2>Get Up To 40% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$240.35 </strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="two_container col-lg-6 col-12" style="background-image: url(./assets/images/offer_banner_2_4.jpg);">
+                        <h6>Eye Liner</h6>
+                        <h2>Get Up To 45% Off</h2>
+                        <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                        <strong class="price">$240.35 </strong><span class="price">$356.35</span><br>
+                        <a href="./shop.html">Shop Now<i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== discound section start  ===========-->
+        <!--=========== video sectio start  ===========-->
+        <section id="video">
+            <div class="container">
+                <div class="row">
+                    <div class="item col-lg-6">
+                        <h6>SPECIAL OFFER</h6>
+                        <h3>Beauty Inspired by Real <br>
+                            Shine In Life </h3>
+                            <p>Completely grow maintainable niches via tactical services. Progressively synthesize market positioning paradigms for functional architectures. Professionally aggregate.</p>
+                            <a class="button" href="./shop_detail.html">Explore More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="item col-lg-6">
+                        <div class="offer_img">
+                        <img src="./assets/images/banner_8.jpg" alt="" class="img-fluid">
+                        <div class="circle">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== video sectio end  ===========-->
+        <!--=========== latest news section start  ===========-->
+        <section id="latest_news">
+            <div class="container">
+                <div class="heading">
+                    <h3>Latest News</h3>
+                </div>
+                <div class="row latest_news_slider">
+                    <div class="col-4 col-xl-3 sm_container">
+                        <div class="news_img">
+                            <img src="./assets/images/blog_card_1.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="news_info">
+                            <h5>Best multi-step Beauty skin.</h5>
+                            <p>Appropriately seize 24/365 markets without adaptive.</p>
+                            <div class="d-flex justify-content-between date">
+                                <a href="./about.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                <span>Jan 04, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-xl-3 sm_container">
+                        <div class="news_img">
+                            <img src="./assets/images/blog_card_2.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="news_info">
+                            <h5>Herbal treatment for dry scal</h5>
+                            <p>Appropriately seize 24/365 markets without adaptive.</p>
+                            <div class="d-flex justify-content-between date">
+                                <a href="./about.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                <span>Jan 04, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-xl-3 sm_container">
+                        <div class="news_img">
+                            <img src="./assets/images/blog_card_3.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="news_info">
+                            <h5>Traveling Solo Is Awesome</h5>
+                            <p>Appropriately seize 24/365 markets without adaptive.</p>
+                            <div class="d-flex justify-content-between date">
+                                <a href="./blog_details.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                <span>Jan 04, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-xl-3 sm_container">
+                        <div class="news_img">
+                            <img src="./assets/images/blog_card_4.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="news_info">
+                            <h5>A Beautiful Sunday Morning</h5>
+                            <p>Appropriately seize 24/365 markets without adaptive.</p>
+                            <div class="d-flex justify-content-between date">
+                                <a href="./blog_details.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                <span>Jan 04, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-xl-3 sm_container">
+                        <div class="news_img">
+                            <img src="./assets/images/blog_card_5.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="news_info">
+                            <h5>A Beautiful Sunday Morning</h5>
+                            <p>Appropriately seize 24/365 markets without adaptive.</p>
+                            <div class="d-flex justify-content-between date">
+                                <a href="./blog_details.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                <span>Jan 04, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-xl-3 sm_container">
+                        <div class="news_img">
+                            <img src="./assets/images/blog_card_6.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="news_info">
+                            <h5>Traveling Solo Is Awesome</h5>
+                            <p>Appropriately seize 24/365 markets without adaptive.</p>
+                            <div class="d-flex justify-content-between date">
+                                <a href="./bolg_classic.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                <span>Jan 04, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== latest news section end  ===========-->
+        <!--=========== support section start  ===========-->
+        <section id="support">
+            <div class="container">
+                <div class="d-flex flex-wrap s2">
+                    <div class="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
+                        <div class="img text-center">
+                            <img src="./assets/images/truck.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="info">
+                            <h5>FREE SHIPING</h5>
+                            <p>all orders over $150</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
+                        <div class="img text-center">
+                            <img src="./assets/images/card1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="info">
+                            <h5>QUICK PAYMENT</h5>
+                            <p>100% secure payment</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
+                        <div class="img text-center">
+                            <img src="./assets/images/return.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="info">
+                            <h5>FREE RETURNS</h5>
+                            <p>Return money within 30 days</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
+                        <div class="img text-center">
+                            <img src="./assets/images/support.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="info">
+                            <h5>24/7 SUPPORT</h5>
+                            <p>Quick Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== support section end  ===========-->
+
+        </main>
+        <!-- =========== Main Part End =========== -->
+        <!-- =========== Footer Part Start =========== -->
+       <footer>
+        <div class="container">
+            <div class="footer_upper d-flex justify-content-center align-items-center">
+                <div class="col-md-2 col-12 info">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></i></a>
+                </div>
+                <div class="col-md-8 col-12 text-center">
+                    <img src="./assets/images/logo_light.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 col-12">
+                    <img src="./assets/images/payment_method.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="footer_lower d-flex flex-wrap justify-content-center align-items-center">
+                <div class="wizeart col-lg-2 col-md-4 col-sm-6">
+                    <h4>My Account</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="./checkout.html">My Account</a></li>
+                            <li><a href="./cart.html">View Cart</a></li>
+                            <li><a href="./wishlist.html">Wishlist</a></li>
+                            <li><a href="./compare.html">Compare</a></li>
+                            <li><a href="./404.html">New Products</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="wizeart col-lg-2 col-md-4 col-sm-6">
+                    <h4>Support</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="./404.html">Help</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./404.html">Feedback</a></li>
+                            <li><a href="./shop_detail.html">Customer Service</a></li>
+                            <li><a href="./bolg_classic.html">Store Locations</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="wizeart wizeart2 col-lg-2 col-md-4 col-sm-6">
+                    <h4>Opening Time</h4>
+                    <table class="tbl text-white">
+                        <tr>
+                            <th>Mon - Tue:</th>
+                            <td>8AM - 10PM</td>
+                        </tr>
+                        <tr>
+                            <th>Wed: </th>
+                            <td>8AM - 7PM</td>
+                        </tr>
+                        <tr>
+                            <th>Fri:</th>
+                            <td>7AM - 12PM</td>
+                        </tr>
+                        <tr>
+                            <th>Sat:</th>
+                            <td>9AM - 8PM</td>
+                        </tr>
+                        <tr>
+                            <th>Sun:</th>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="wizeart wizeart3 col-lg-3 col-md-6 col-sm-6">
+                    <h4>Contact Us</h4>
+                    <ul class="mrg">
+                        <li class="d-flex">
+                            <i class="fa-solid fa-map-marker-alt"></i>
+                            <address>830 Broadway, New York, NY 10003, United States</address>
+                        </li>
+                        <li class="d-flex">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="callto:+18008660286">+18008660286</a>
+                        </li>
+                        <li class="d-flex">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <a href="mailto:aetor.info@gmail.com">aetor.info@gmail.com</a>
+                                <a href="mailto:info@aetor.com">info@aetor.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="wizeart wizeart4 col-lg-3 col-md-6 col-sm-12">
+                    <h4>News Letter</h4>
+                    <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+                    <form class="d-flex justify-content-between" action="">
+                        <input type="email" placeholder="Enter Your Email....">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- =========== Copyright Section Start =========== -->
+        <section id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p>&copy; 2022 All Rights Reserved <a href="./index.html">Aytor</a> By <a href="#"
+                                target="_blank">Angfuzsoft.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========== Copyright Section End =========== -->
+       </footer> 
+        <!-- =========== Footer Part End =========== -->
+
+       <!--======== reload popup ======== -->
+        <section id="popup" class="mx-auto">
+            <div class="container align-items-center justify-content-center">
+                <div class="info text-center position-relative" style="background-image: url(./assets/images/popup-banner-1.png);">
+                <h3>Newsletter</h3>
+                <p>Seamlessly disseminate interoperable collaboration and idea-sharing via magnetic catalysts for change. Interactively enable competitive customer service.</p>
+                <form class="d-flex justify-content-center" action="">
+                    <input type="email" placeholder="Enter Your Email....">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="d-flex justify-content-center chek">
+                    <input type="checkbox">
+                    <p>Don’t Show This Popup Again</p>
+                </div>
+                </div>
+                <button class="popup_x" id="popup_x"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </section>
+       <!--======== reload popup ======== -->
+
+        <!-- =========== Search Modal Section Start =========== -->
+        <section id="search_modal" class="d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <form action="" class="d-flex align-items-center position-relative z-3">
+                            <input type="search" class="w-100" placeholder="What are you looking for?">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <button id="search_close_btn"><i class="fa-solid fa-xmark"></i></button>
+        </section>
+        <!-- =========== Search Modal Section End =========== -->
+
+        <!-- ===========  backtotop Section start =========== -->
+         <button id="backtotop" class="">
+            <i class="fa-solid fa-long-arrow-up"></i>
+        </button>
+        <!-- ===========  backtotop Section End =========== -->
+
+        <!-- jQuery Js Src -->
+        <script src="./assets/vendors/js/jquery-3.7.0.min.js"></script>
+        <!-- Bootstrap Js Src -->
+        <script src="./assets/vendors/js/bootstrap.bundle.min.js"></script>
+        <!-- Slick Js Src -->
+        <script src="./assets/vendors/js/slick.min.js"></script>
+        <!-- coundow js  -->
+        <script src="./assets/js/jquery.countdown.min.js"></script>
+        <!-- counterup js src  -->
+        <script src="./assets/js/jquery.counterup.min.js"></script>
+        <!-- Main Js Src -->
+        <script src="./assets/js/app.js"></script>
+    </body>
+
+</html>

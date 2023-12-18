@@ -1,0 +1,1271 @@
+/* =========== Extra Extra Large Device Start =========== */
+@media (min-width:1400px){
+
+}
+/* =========== Extra Extra Large Device End =========== */
+
+
+/* =========== Extra Large Device Start =========== */
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+/* =========== Extra Large Device End =========== */
+
+
+/* =========== Large Device Start =========== */
+@media (min-width:992px) and (max-width:1199.98px){
+    /* home page  */
+    #product {
+        padding: 60px 0;
+    }
+    #spa_cosmatic {
+        padding: 60px 0;
+    }
+    #latest_news {
+        padding: 60px 0;
+    }
+    #latest_news .sm_container .news_info a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #latest_news .sm_container .news_info h5 {
+        line-height: 24px;
+        padding: 5px 0px;
+    }
+    #latest_news .sm_container .news_info span{
+        font-size: 12px;
+    }
+    footer .footer_upper .info a {
+        padding: 4px 8px;
+        font-size: 18px;
+    }
+    footer .footer_lower {
+        padding: 40px 0;
+    }
+    footer .footer_lower .wizeart.wizeart3,
+    footer .footer_lower .wizeart.wizeart4{
+        padding-top: 20px;
+    }
+    footer .footer_lower .wizeart.wizeart3 {
+        margin-left: 0px;
+    }
+    footer .footer_lower .wizeart.wizeart4 form{
+        justify-content: space-between;
+    }
+    footer .footer_lower .wizeart form button {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 5px 5px;
+    }
+    footer .footer_lower .wizeart form input {
+        padding: 6px 0px;
+        line-height: 28px;
+    }
+    /* blog details_one page  */
+    #blog_classic .slide .scc .search input {
+        width: 225px;
+    }
+    #trends .trend_slid .cmnt_info span {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 0px;
+        padding-top: 15px;
+        margin-top: 0px;
+    }
+    #blog_classic .blog_img {
+        width: 290px;
+    }
+    #Comment .info {
+        padding: 20px;
+    }
+    #Comment .form input {
+        width: 302px;
+        margin: 10px 3px;
+    }
+    /* blog page  */
+    #trends .banner_slider_trend .slick-arrow{
+        display: none !important;
+    }
+    #shop .c_button ul li button a {
+        font-size: 16px;
+    }
+    /* compare page  */
+    #wishlist .search input {
+        width: 895px;
+    }
+    /* contact page  */
+    #message input {
+        width: 215px;
+    }
+    #message textarea {
+        width: 450px;
+    }
+    /* shop details page  */
+    .shop_infor table td  a.btn {
+        font-size: 14px;
+        padding: 10px 9px;
+    }
+}
+/* =========== Large Device End =========== */
+
+
+/* =========== Medium Device Start =========== */
+@media (min-width:768px) and (max-width:991.98px){
+    #top_bar{
+        display: none;
+    }
+    #banner .banner_slider .banner_item_slider {
+        height: 500px;
+        padding-left: 100px;
+    }
+    #banner .banner_slider .slick-dots {
+        left: 115px;
+        bottom: 50px;
+    }
+    #product {
+        padding: 50px 0;
+    }
+    .product_box .product_info h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #spa_cosmatic {
+        padding: 70px 0;
+    }
+    #video .item h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #two .two_container h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    #two .two_container p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #video {
+        padding: 60px 0;
+    }
+    .circle {
+        transform: translate(-0, -0);
+    }
+    #latest_news {
+        padding: 70px 0;
+    }
+    #latest_news .sm_container .news_info h5 {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 5px 0px;
+    }
+    #latest_news .sm_container .news_info .date {
+        padding: 3px 0;
+    }
+    #latest_news .sm_container .news_info a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #latest_news .sm_container .news_info span{
+        font-size: 12px;
+    }
+    #support {
+        transform: translateY(0);
+    }
+    #support .container {
+        padding: 16px 0;
+        box-shadow: none;
+    }
+    #support .img {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    #support .info h5 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #support .info p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    #support .s2 div{
+        justify-content: flex-start !important;
+        padding: 8px 0;
+    }
+    footer .footer_upper {
+        padding: 40px 0;
+    }
+    footer .footer_upper .info a {
+        padding: 6px 6px;
+        font-size: 16px;
+    }
+    footer .footer_lower .wizeart form {
+        justify-content: space-between;
+    }
+    footer .footer_lower .wizeart{
+        padding-top: 20px;
+    }
+    footer .footer_lower .wizeart.wizeart3{
+        margin-left: auto;
+    }
+    /* 404 page  */
+    #error-page {
+        padding: 60px;
+    }
+    #error-page a.btn1 {
+        padding: 8px 10px;
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /* blog details_one page  */
+    #trends .trend_slid .cmnt_info span {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 0px;
+        padding-top: 15px;
+        margin-top: 0px;
+    }
+    #Comment .info {
+        padding: 20px;
+    }
+    #blog_classic .sm_logo{
+        align-items: left !important;
+    }
+    #Comment .form input {
+        width: 302px;
+        margin: 10px 3px;
+    }
+    #blog_classic .slide .scc .search input {
+        width: 615px;
+    }
+    /* blog details page */
+    #page-heading {
+        height: 250px;
+    }
+    #page-heading .heading-info h1 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    #trends .info .date span:first-child {
+        border-right: transparent;
+    }
+    #trends .info .date span {
+        margin: 10px 0;
+    }
+    /* blog page  */
+    #trends .banner_slider_trend .slick-arrow{
+        display: none !important;
+    }
+    #shop .c_button ul li button a {
+        font-size: 16px;
+    }
+    .np {
+        padding: 10px 0;
+    }
+    /* checkout page  */
+    #billing .info input.name {
+        width: 500px;
+    }
+    /* compare page  */
+    #wishlist .search input {
+        width: 656px;
+    }
+    .wish tr.desc td {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #wishlist .head {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .wish tr.Rattings td i {
+        font-size: 8px;
+    }
+    #wishlist table .color button {
+        font-size: 16px;
+        padding: 7px 7px;
+    }
+    /* contact page  */
+    #message input {
+        width: 215px;
+    }
+    #message textarea {
+        width: 450px;
+    }
+    #contact_info .item {
+        margin: 10px;
+        border-radius: 5px;
+    }
+    #message button {
+        margin-bottom: 10px;
+    }
+    /* shop details page  */
+    .shop_infor table td  a.btn {
+        font-size: 14px;
+        padding: 10px 9px;
+    }
+    #mid .head a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 30px;
+    }
+    #pro_card {
+        padding: 40px 0;
+    }
+    #mid .head p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    #shop .shop_item .item .stext h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #shop .shop_item .item .stext p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* whislist page  */
+    #wishlist table tr td button {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 5px 10px;
+    }
+    #wishlist table tr .bold {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #wishlist table tr .normal {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #wishlist table tr .mark input {
+        margin-right: 0px;
+    }
+    /* shop page  */
+    #shop .shop_item .item .info{
+        padding: 15px 0;
+    }
+}
+/* =========== Medium Device End =========== */
+
+
+/* =========== Small Device Start =========== */
+@media (min-width:576px) and (max-width:767.98px){
+    #top_bar .top_bar_info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #top_bar .top_bar_info .sec li {
+        border-right: transparent;
+    }
+    #top_bar .top_bar_info .sec{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #banner .banner_slider .banner_item_slider {
+        padding-left: 35px;
+        height: 450px;
+    }
+    #banner .banner_slider .banner_item_slider h1 {
+        font-size: 50px;
+        line-height: 58px;
+        padding-bottom: 10px;
+    }
+    #banner .banner_slider .slick-dots {
+        left: 50px;
+        bottom: 40px;
+    }
+    #sub_banner .sub_banner_item {
+        margin: 5px;
+    }
+    #sub_banner .sub_banner_item .sub_banner_info h4 {
+        line-height: 12px;
+        margin-bottom: 5px;
+    }
+    #sub_banner .sub_banner_item .sub_banner_info a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #product {
+        padding: 30px 0;
+    }
+    .product_box .product_info {
+        padding: 10px;
+    }
+    .product_box .product_info h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #product .heading h2 {
+        padding-bottom: 20px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #two .two_container h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 6px 0;
+    }
+    #two .two_container p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #two .two_container a {
+        padding: 8px 8px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+    #spa_cosmatic {
+        padding: 40px 0;
+    }
+    #spa_cosmatic .info h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    #spa_cosmatic .info p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #spa_cosmatic .info a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 7px 13px;
+        margin: 14px 0;
+    }
+    .cbutton a {
+        padding: 8px 13px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #deals .heading h3 {
+        font-size: 28px;
+        line-height: 26px;
+        padding-top: 20px;
+    }
+    #video {
+        padding: 40px 0;
+    }
+    #video .item .offer_img {
+        display: none;
+    }
+    #video .item h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 5px 0;
+    }
+    #video .item h6 {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 0;
+    }
+    #video .item .button {
+        padding: 7px 13px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #latest_news {
+        padding: 30px 0;
+    }
+    #latest_news .heading h3 {
+        font-size: 30px;
+        line-height: 29px;
+        padding-bottom: 30px;
+    }
+    #support .img {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    #support .info h5 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    footer .footer_upper .info a {
+        padding: 2px 10px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    footer .footer_lower {
+        padding: 45px 0;
+    }
+    footer .footer_lower .wizeart.wizeart3 {
+        margin-left: 0px;
+    }
+    footer .footer_lower .wizeart form {
+        justify-content: space-between;
+    }
+    footer .footer_lower .wizeart h4 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 0px;
+    }
+    #copyright p {
+        padding: 10px 0;
+    }
+    /* 404 page  */
+    footer .footer_upper{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    footer .footer_upper div{
+        padding: 10px;
+    }
+    /* blog details_one page  */
+    #top_bar {
+        display: none;
+    }
+    #page-heading {
+        height: 300px;
+    }
+    #page-heading .heading-info h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #trends .trend_slid .cmnt_info span {
+        font-size: 14px;
+        line-height: 0px;
+        padding: 0 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .trend_slid .cmnt_info{
+        padding-top: 15px;
+    }
+    #blog_classic .blog_img {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #blog_classic .blog_img img {
+        margin: 0;
+        width: 100%;
+    }
+    #Comment .info {
+        padding: 20px;
+    }
+    #blog_classic .sm_logo{
+        align-items: left !important;
+    }
+    #Comment .form input {
+        width: 251px;
+        margin: 10px 3px;
+    }
+    #Comment .form .input, #Comment .form textarea {
+        width: 510px;
+    }
+    #blog_classic .slide .scc .search input {
+        width: 440px;
+    }
+    footer .footer_upper {
+        padding: 40px 0;
+    }
+    /* blog details page */
+    #page-heading {
+        height: 250px;
+    }
+    #page-heading .heading-info h1 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    #trends .info .date span:first-child {
+        border-right: transparent;
+    }
+    #trends .info .date span {
+        margin: 10px 0;
+    }
+    #shop .c_button ul li button a i {
+        padding: 0;
+    }
+    #shop .c_button ul li button a {
+        padding: 0 5px;
+    }
+    /* blog page  */
+    #trends .banner_slider_trend .slick-arrow{
+        display: none !important;
+    }
+    #shop .c_button ul li button a {
+        font-size: 12px;
+    }
+    .np {
+        padding: 10px 0;
+    }
+    footer .footer_upper .dn {
+        display: none;
+    }
+    footer .footer_upper .lft{
+        text-align: left !important;
+    }
+    footer .footer_upper {
+        border-bottom: transparent;
+    }
+    /* cart page  */
+    #wishlist .fr{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #wishlist .fw{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+    #wishlist .fw input{
+        width: 100%;
+    }
+    #wishlist .total{
+        justify-content: left !important;
+    }
+    /* checkout page  */
+    #billing .info input.name {
+        width: 500px;
+    }
+    #billing .info select, #billing .info input {
+        width: 500px;
+    }
+    #wishlist table tr .bold {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .check_list td p {
+        padding: 2px 4px;
+    }
+    .check_list td p, .check_list td i {
+        padding: 3px;
+        margin: 2px;
+        font-size: 12px;
+    }
+    /* compare page  */
+    #wishlist .search input {
+        width: 475px;
+    }
+    .wish tr.desc td {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #wishlist .head {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .wish tr h6 {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 10px 0;
+    }
+    .wish tr.t-color td, .wish tr.color td {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .wish tr.Rattings td i {
+        font-size: 8px;
+    }
+    #wishlist table .color button {
+        font-size: 14px;
+        padding: 7px 7px;
+    }
+    /* contact page  */
+    #contact_info {
+        margin: 30px 0;
+    }
+    #message input {
+        width: 245px;
+    }
+    #message textarea {
+        width: 510px;
+    }
+    #contact_info .item {
+        margin: 10px;
+        border-radius: 5px;
+    }
+    #message button {
+        margin-bottom: 10px;
+    }
+    #message .img img{
+        width: 100%;
+    }
+    /* shop details page  */
+    #pro_card .shop_infor h5 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #pro_card .shop_infor p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+     .shop_infor table td  a.btn {
+        font-size: 14px;
+        padding: 10px 9px;
+    }
+    #mid .head a {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px 10px;
+    }
+    #shop h3 {
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    #pro_card {
+        padding: 40px 0;
+    }
+    #mid .head p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    #shop .shop_item .item .stext h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #shop .shop_item .item .stext p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* whislist page  */
+    #wishlist {
+        margin: 30px 0;
+    }
+    #wishlist table tr td button {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 5px 10px;
+    }
+    #wishlist table tr .bold {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #wishlist table tr .normal {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #wishlist table tr .mark input {
+        margin-right: 0px;
+    }
+    #wishlist .head .dn{
+        display: none;
+    }
+    #wishlist table tr td{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        border: 1px solid var(--bg-dark);
+    }
+    /* shop page  */
+    #shop .shop_item .item .info{
+        padding: 15px 0;
+    }
+}
+/* =========== Small Device End =========== */
+
+
+/* =========== Extra Small Device Start =========== */
+@media (max-width:575.98px){
+    #top_bar {
+        display: none;
+    }
+    #banner .banner_slider .banner_item_slider {
+        height: 350px;
+        padding-left: 10px;
+    }
+    #banner .banner_slider .banner_item_slider h1 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 6px;
+    }
+    #banner .banner_slider .banner_item_slider a {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px 20px;
+        margin-top: 12px;
+    }
+    #banner .banner_slider .slick-dots {
+        left: 130px;
+        bottom: 48px;
+    }
+    #banner .banner_slider .banner_item_slider p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #banner .banner_slider .slick-dots {
+        left: 24px;
+        bottom: 34px;
+    }
+    #banner .banner_slider .banner_item_slider a {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 10px 10px;
+        margin-top: 6px;
+    }
+    #sub_banner .sub_banner_item .sub_banner_info h4 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    #product {
+        padding: 30px 0;
+    }
+    #product .heading h2 {
+        padding-bottom: 6px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .product_box .product_info {
+        padding: 10px;
+    }
+    #spa_cosmatic {
+        padding: 30px 0;
+    }
+    #spa_cosmatic .info h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #spa_cosmatic .info a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 14px;
+        margin: 10px 0;
+    }
+    .cbutton a {
+        padding: 10px 10px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #deals .heading h3 {
+        font-size: 26px;
+        line-height: 33px;
+        padding-top: 20px;
+    }
+    #two .two_container h2 {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 9px 0;
+    }
+    #two .two_container p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #two .two_container a {
+        padding: 10px 10px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+    #video .item .offer_img{
+        display: none;
+    }
+    #video {
+        padding: 24px 0;
+    }
+    #video .item h6 {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px 0;
+    }
+    #video .item h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 6px 0;
+    }
+    #video .item .button {
+        padding: 7px 8px;
+        font-size: 13px;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+    #latest_news {
+        padding: 30px 0;
+    }
+    #latest_news .sm_container .news_info h5 {
+        padding: 10px 0;
+    }
+    #support .two_container{
+        margin: 10px;
+    }
+    #support {
+        transform: translate(0%);
+        padding-left: 55px;
+    }
+    #support .container {
+        background-color: var(--light);
+        box-shadow: none;
+    }
+    #support .s2 div{
+        padding-top: 10px;
+    }
+    footer .footer_upper {
+        padding: 15px 0;
+    }
+    footer .footer_upper .info{
+        display: flex;
+    }
+    footer .footer_upper .info a {
+        padding: 4px 8px;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .footer_lower .wizeart2{
+        margin-right: auto;
+    }
+    #copyright p {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 7px 0;
+    }
+    footer .footer_lower {
+        padding: 30px 0;
+    }
+    /* 404 page  */
+    footer .footer_upper{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    footer .footer_upper div{
+        padding: 10px;
+    }
+    #error-page a.btn1 {
+        padding: 4px 2px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #error-page p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 0;
+    }
+    /* blog details_one page  */
+    #top_bar {
+        display: none;
+    }
+    #page-heading {
+        height: 300px;
+    }
+    #page-heading .heading-info h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #trends .trend_slid .cmnt_info span {
+        font-size: 14px;
+        line-height: 0px;
+        padding: 0 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .trend_slid .cmnt_info{
+        padding-top: 15px;
+    }
+    #blog_classic .blog_img {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #blog_classic .blog_img img {
+        margin: 0;
+        width: 100%;
+    }
+    #blog_classic #shop .c_button{
+        flex-wrap: wrap;
+    }
+    #Comment .info {
+        padding: 20px;
+    }
+    #blog_classic .sm_logo{
+        align-items: left !important;
+    }
+    #Comment .form input {
+        width: 251px;
+        margin: 10px 3px;
+    }
+    #Comment .form .input, #Comment .form textarea {
+        width: 250px;
+    }
+    #blog_classic .slide .scc .search input {
+        width: 210px;
+    }
+    footer .footer_upper {
+        padding: 40px 0;
+    }
+    /* blog details page */
+    #page-heading {
+        height: 200px;
+    }
+    #page-heading .heading-info h1 {
+        font-size: 30px;
+        line-height: 26px;
+    }
+    #trends .info h2 {
+        font-size: 26px;
+    }
+    #shop .c_button .shape p {
+        margin-bottom: 20px;
+    }
+    #shop .c_button ul li button a {
+        background-color: var(--dark);
+        color: var(--light);
+        font-size: 10px;
+        line-height: 19px;
+    }
+    #trends .info .date span:first-child {
+        border-right: transparent;
+    }
+    #trends .info .date span {
+        margin: 10px 0;
+    }
+    #shop .c_button ul li button a i {
+        padding: 0;
+    }
+    #shop .c_button ul li button a {
+        padding: 5px;
+    }
+    /* blog page  */
+    #trends .banner_slider_trend .slick-arrow{
+        display: none !important;
+    }
+    #shop .c_button ul li button a {
+        font-size: 12px;
+    }
+    #shop .c_button {
+        flex-wrap: wrap;
+    }
+    .np {
+        padding: 10px 0;
+    }
+    #shop .c_button ul li button a {
+        padding: 5px 10px;
+    }
+    footer .footer_upper .dn {
+        display: none;
+    }
+    footer .footer_upper .lft{
+        text-align: left !important;
+    }
+    footer .footer_upper {
+        border-bottom: transparent;
+    }
+    /* blog_details page  */
+    #shop .icon .c_button ul li button a {
+        color: var(--light);
+    }
+    /* cart page  */
+    #wishlist .fr{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #wishlist .fw{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+    #wishlist .fw input{
+        width: 100%;
+    }
+    #wishlist .total{
+        justify-content: left !important;
+    }
+    #wishlist .fr .ct{
+        text-align: center;
+    }
+    #wishlist .total .item-info{
+        display: flex;
+    }
+    #wishlist .total .item-info button{
+        width: 100px;
+    }
+    /* checkout page  */
+    #billing .info input.name {
+        width: 315px;
+    }
+    #billing .info select, #billing .info input {
+        width: 315px;
+    }
+    #wishlist table tr .bold {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .check_list td p {
+        padding: 2px 4px;
+    }
+    .check_list td p, .check_list td i {
+        padding: 3px;
+        margin: 2px;
+        font-size: 12px;
+    }
+    /* compare page  */
+    #wishlist .search input {
+        width: 475px;
+    }
+    .wish tr.desc td {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #wishlist .head {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .wish tr h6 {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 10px 0;
+    }
+    .wish tr.t-color td, .wish tr.color td {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .wish tr.Rattings td i {
+        font-size: 8px;
+    }
+    #wishlist table .color button {
+        font-size: 14px;
+        padding: 7px 7px;
+    }
+     /* contact page  */
+     #message input {
+        width: 300px;
+    }
+    #contact_info {
+        margin: 30px 0;
+    }
+    #message textarea {
+        width: 300px;
+    }
+    #contact_info .item {
+        margin: 10px;
+        border-radius: 5px;
+    }
+    #message button {
+        margin-bottom: 10px;
+    }
+    #message h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    #message .img img{
+        width: 100%;
+    }
+    footer .footer_upper div {
+        text-align: left !important;
+    }
+    /* shop details page  */
+    #page-heading .heading-info h1 {
+        font-size: 24px;
+        line-height: 20px;
+    }
+    #pro_card .shop_infor h5 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    #pro_card .shop_infor .bold {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #pro_card .shop_infor p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+     .shop_infor table td  a.btn {
+        font-size: 14px;
+        padding: 10px 9px;
+    }
+    #pro_card .shop_infor .plus_mines tr .one i {
+        font-size: 14px;
+        padding: 7px;
+    }
+    #pro_card .shop_infor .plus_mines tr p {
+        padding: 5px;
+    }
+    #pro_card .shop_infor .plus_mines tr button i {
+        font-size: 14px;
+        padding: 8px;
+    }
+    #pro_card .shop_infor .plus_mines tr a.btn {
+        margin: 0 0px;
+    }
+    #mid .head a {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 10px 5px;
+        margin: 3px;
+    }
+    .shop_infor table td  a.btn {
+        font-size: 12px;
+        padding: 5px;
+    }
+    #pro_card .shop_infor select, #pro_card .shop_infor input {
+        width: 320px;
+    }
+    #pro_card {
+        padding: 20px 0;
+    }
+    #mid .head p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    #shop h3 {
+        padding: 10px 0;
+        font-size: 24px;
+    }
+    #shop .shop_item .item .stext h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #shop .shop_item .item .stext p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* whislist page  */
+    #wishlist {
+        margin: 30px 0;
+    }
+    #wishlist table tr td button {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 5px 10px;
+    }
+    #wishlist table tr .bold {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #wishlist table tr .normal {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #wishlist table tr .mark input {
+        margin-right: 0px;
+    }
+    #wishlist .head .dn{
+        display: none;
+    }
+    #wishlist table tr td{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        border: 1px solid var(--bg-dark);
+    }
+    footer .footer_lower {
+        justify-content: left !important;
+    }
+    footer .footer_lower .wizeart form button {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 8px 11px;
+    }
+    /* shop page  */
+    #shop .shop_item .item .info{
+        padding: 15px 0;
+    }
+    #shop  .shape{
+        margin-bottom: 10px;
+    }
+    #shop .top_icon {
+        flex-wrap: wrap;
+    }
+    #shop .top_icon .list select {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 6px 10px;
+    }
+}
+/* =========== Extra Small Device End =========== */
+
