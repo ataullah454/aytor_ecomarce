@@ -272,8 +272,8 @@ function myFunction() {
 })
 
 // cart toaltips 
-// const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-// const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 // add product card 
 var add = document.getElementById
